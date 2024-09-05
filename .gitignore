@@ -1,0 +1,26 @@
+# Ignorar node_modules de ambos Backend e Frontend
+Backend/node_modules/
+Frontend/node_modules/
+
+# Ignorar arquivos de configuração de ambiente
+Backend/.env
+Frontend/.env
+
+# Ignorar arquivos de logs
+logs/
+*.log
+npm-debug.log*
+
+# Ignorar dependências do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos gerados por editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar builds ou pacotes de distribuição
+dist/
+build/
