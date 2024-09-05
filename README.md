@@ -49,15 +49,17 @@ backend/
 A API estará disponível em *http://localhost:3000.*
 
 Endpoints da API
-  - POST /api/users: Cria um novo usuário.
-  - GET /api/users/:id: Retorna um usuário pelo ID.
-  - PUT /api/users/:id: Atualiza as informações de um usuário.
-  - DELETE /api/users/:id: Deleta um usuário.
-  - POST /api/tasks: Cria uma nova tarefa.
-  - GET /api/tasks/:usuario_id: Retorna as tarefas de um usuário específico.
-  - GET /api/tasks/allTasks: Retorna todas as tarefas.
-  - PUT /api/tasks/:id: Atualiza uma tarefa.
-  - DELETE /api/tasks/:id: Deleta uma tarefa.
+  - POST /api/users = Cria um novo usuário.
+  - GET /api/users = Retorna todos os usuários.
+  - GET /api/users/:id = Retorna um usuário pelo ID.
+  - PUT /api/users/update/:id = Atualiza as informações de um usuário.
+  - DELETE /api//users/delete/:id = Deleta um usuário.
+    
+  - POST /api/tasks = Cria uma nova tarefa.
+  - GET /api/tasks = Retorna todas as tarefas.
+  - GET /api/tasks/:usuario_id = Retorna as tarefas de um usuário específico.
+  - PUT /api/tasks/update/:id = Atualiza uma tarefa.
+  - DELETE /api/tasks/delete/:id = Deleta uma tarefa.
 
 **Frontend**
 
